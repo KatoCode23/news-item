@@ -1,0 +1,28 @@
+li{
+    list-style-type: none;
+}
+
+.news-item{
+    border: solid red 3px;
+}
+
+.news-item__date{
+    border: solid green 3px;
+}
+
+.news-item__author{
+    border: solid purple 3px;
+}
+
+.news-item__summary{
+    border: solid blue 3px;
+}
+
+.news-item__image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    border: solid yellowgreen 3px;
+}
