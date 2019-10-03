@@ -1,28 +1,93 @@
+html{
+    font-size: 18px;
+}
+
+body {
+    background-color: white;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.jakpost.travel/wimages/large/138-1381460_nice-backgrounds-tumblr-dope-background.jpg)
+  }
+
+  .news-item__title{
+      font-size: 3rem;
+  }
+
+  .greeting-news__main {
+    text-align: center;
+    position: relative;
+    max-width: 700px;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 100%;
+    border: solid white 1px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
 li{
     list-style-type: none;
 }
 
-.news-item{
-    border: solid red 3px;
+a{
+    text-decoration: none;
 }
 
-.news-item__date{
-    border: solid green 3px;
+.section--news{
+    background: #ffffff45;
+    overflow: scroll;
+    text-align: left;
+    max-height: 400px;
+}
+
+.news-item{
+    margin-bottom: 40px;
 }
 
 .news-item__author{
-    border: solid purple 3px;
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.news-item__details{
+    display: flex;
+}
+
+.news-item__network{
+    color: white;
+}
+
+.news-item__network:hover {
+    color: black;
+}
+
+.news-item__date{
+    margin: 0;
+    display: inline-block;
+    color: white;
 }
 
 .news-item__summary{
-    border: solid blue 3px;
+    margin: 0;
 }
 
 .news-item__image{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50px;
-    width: 50px;
-    border: solid yellowgreen 3px;
+    height: 75px;
+    margin-right: 10px;
 }
